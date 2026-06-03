@@ -11,7 +11,7 @@ Cache jest przechowywany na Docker Hub używamy registry w trybie max w pliku pi
 <img width="1318" height="644" alt="image" src="https://github.com/user-attachments/assets/d13705dd-e373-4054-8857-5c147c3fd38d" />
 
 # c. Test CVE
-Przed wysłaniem jest wykonywany test Trivy, który przy znależeniu błedu Critical lub High ma spowodowac przerwanie i blokować niebezpieczny kod
+Przed wysłaniem jest wykonywany test Trivy, który przy znależeniu błedu Critical lub High ma spowodowac przerwanie i blokować niebezpieczny kod i jest to przesstwione w pliku pipeline.yml
 
 <img width="449" height="318" alt="image" src="https://github.com/user-attachments/assets/93d7860f-7083-4720-aa83-1053e04a1e46" />
 
@@ -27,7 +27,9 @@ Uruchomienie Github action zadziało
 # Tagowanie obrazów
 Zrzut przedstawia fragment pliku pipeline.yml gdzie jest tagowanie 
 <img width="630" height="117" alt="image" src="https://github.com/user-attachments/assets/9de40c3f-dd17-4b70-a5de-09c9e82ef553" />
-Przyspisanie do obrazu tagu latest oraz unikalnego hasha
+
+Przyspisanie do obrazu tagu latest oraz unikalnego hasha commita
 <img width="1254" height="674" alt="image" src="https://github.com/user-attachments/assets/564123ba-fb9b-4784-aab4-7185540d46e2" />
+
 Oraz w Docker hub gdzie jest podpisany tagiem latest
 <img width="1318" height="644" alt="image" src="https://github.com/user-attachments/assets/d13705dd-e373-4054-8857-5c147c3fd38d" />
