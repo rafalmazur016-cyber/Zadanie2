@@ -11,9 +11,10 @@ Cache jest przechowywany na Docker Hub używamy registry w trybie max
 <img width="1318" height="644" alt="image" src="https://github.com/user-attachments/assets/d13705dd-e373-4054-8857-5c147c3fd38d" />
 
 # c. Test CVE
-
+Przed wysłaniem jest wykonywany test Trivy, który przy znależeniu błedu Critical lub High ma spowodowac przerwanie i blokować niebezpieczny kod
 <img width="449" height="318" alt="image" src="https://github.com/user-attachments/assets/93d7860f-7083-4720-aa83-1053e04a1e46" />
 
+Dołaczyłem plik .trivyignore w który sa dwa błedy false positives, które w poprzednim zadaniu 1, zaliczyłem je jako niegrożne i można je zignorować, dlatego jest dodane w pliku yml  trivyignores: '.trivyignore'
 <img width="1014" height="250" alt="image" src="https://github.com/user-attachments/assets/22055f5e-db51-46c3-bef9-d329a5c74d5b" />
 
 <img width="912" height="233" alt="image" src="https://github.com/user-attachments/assets/904f1281-c5e8-4748-a540-b1533a70e076" />
