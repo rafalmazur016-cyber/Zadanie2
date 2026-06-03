@@ -17,11 +17,11 @@ Przed wysłaniem jest wykonywany test Trivy, który przy znależeniu błedu Crit
 
 Dołaczyłem plik .trivyignore w który sa dwa błedy false positives, które w poprzednim zadaniu 1, zaliczyłem je jako niegrożne i można je zignorować, dlatego jest dodane w pliku yml  trivyignores: '.trivyignore'
 <img width="1014" height="250" alt="image" src="https://github.com/user-attachments/assets/22055f5e-db51-46c3-bef9-d329a5c74d5b" />
-tu mamy jeszce potwierdzienie ze w Github action czyta plik .trivyignore i dalej kontynuje dziłanie
+tu mamy jeszce potwierdzienie ze w Github action czyta plik .trivyignore i szuka nowych błędów Critical lub High
 <img width="912" height="233" alt="image" src="https://github.com/user-attachments/assets/904f1281-c5e8-4748-a540-b1533a70e076" />
 <img width="916" height="255" alt="image" src="https://github.com/user-attachments/assets/e6dbd3a0-b464-4d16-bcb0-58cce51c6cad" />
 
-Uruchomienie Github action zadziało 
+Uruchomienie Github action i pozytywne wykoanie build nd push
 <img width="1337" height="555" alt="image" src="https://github.com/user-attachments/assets/13cb4f4b-663e-4492-812a-ce9c00d8d098" />
 
 # Tagowanie obrazów
