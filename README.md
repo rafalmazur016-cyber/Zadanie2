@@ -1,7 +1,7 @@
 # Zadanie2
 
 # a. Architektury 
-obraz jest wspierany przez linux/amd64 oraz linux/arm64
+obraz jest wspierany przez linux/amd64 oraz linux/arm64 
 <img width="1013" height="590" alt="image" src="https://github.com/user-attachments/assets/23dc2e59-e4c8-4fbe-a574-74b959ebe0ec" />
 
 # b. Optymaliacja budowy Cache
